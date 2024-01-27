@@ -13,3 +13,6 @@ and it has the following features
 - anyone can mark a todo as done
 
 - anyone can see their present todo list
+
+- this work on sending a json file to a local express server using cors
+  
