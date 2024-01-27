@@ -9,7 +9,7 @@ const mongoose = require("mongoose");
 const { string } = require("zod");
 
 // connection link - mongodb+srv://rksharmaRiseInk:828401Rupesh@cluster0.zph68hj.mongodb.net/todos
-mongoose.connect("mongodb+srv://rksharmaRiseInk:828401Rupesh@cluster0.zph68hj.mongodb.net/todos");
+mongoose.connect("mongo-database-link");
 const todoSchema  = mongoose.Schema({
     title:String,
     description:String,
